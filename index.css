@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--background-color, #000);
+    background-color: var(--background-color, #ffffff);
 }
 
 .sidebar{
@@ -44,7 +44,7 @@ body{
     calc(var(--y-position, 3) * 1px)
     calc(var(--blur, 5) * 1px)
     calc(var(--spread, 6) * 1px)
-    var(--shadow-color,#0af)
+    var(--shadow-color,#000)
 }
 input:not([type="color"]){
     padding: .25em .5rem;
